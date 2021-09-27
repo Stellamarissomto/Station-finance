@@ -12,7 +12,7 @@ padding-bottom: 3rem;
 margin-bottom: 3rem;
 
 @media (min-width: 1152px){
-    height: 454px;
+    height: 400px;
 }
 
 @media (min-width: 1440px){
@@ -37,7 +37,7 @@ padding-top: 2rem;
 color: #FFFFFF;
 
 @media (min-width: 1152px ) {
-    
+    padding-top: 1rem;
     font-size: 40px;
     margin-left: 19rem;
    
@@ -46,6 +46,12 @@ color: #FFFFFF;
 @media (min-width: 1200px){
     
     margin-left: 22rem;
+   
+}
+
+@media (min-width: 1320px){
+    
+    margin-left: 25rem;
    
 }
 
@@ -66,7 +72,7 @@ margin-right: auto;
     margin-left: 1rem;
     width: 185px;
     height: 34px;
-    padding-top: 4.5rem;
+    padding-top: 3.5rem;
     
 }
 `
@@ -75,7 +81,7 @@ export const HeroP = styled.p`
 font-family: Open Sans;
 font-style: normal;
 font-weight: 300;
-font-size: 20px;
+font-size: 17px;
 line-height: 27px;
 letter-spacing: 0.045em;
 text-align: center;
@@ -87,7 +93,7 @@ color: #FFFFFF;
 @media (min-width: 1152px){
     
     font-size: 24px;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
    
 }
 `
