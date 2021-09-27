@@ -16,5 +16,10 @@ cursor: pointer;
     width: 28%;
 }
 
+@media (min-width: 1440px){
+    width: 25%;
+    height: 170px;
+}
+
 
 `

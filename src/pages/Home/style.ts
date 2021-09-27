@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const Section = styled.div`
 background: #1F2436;
 border-radius: 10px;
-width: 95%;
+width: 90%;
 height: 900px;
 margin: 0 auto;
 margin-top: 5rem;
@@ -13,6 +13,11 @@ margin-bottom: 3rem;
 
 @media (min-width: 1152px){
     height: 454px;
+}
+
+@media (min-width: 1440px){
+   width: 85%;
+   margin-top: 7rem;
 }
 
 `
@@ -31,10 +36,23 @@ padding-top: 2rem;
 
 color: #FFFFFF;
 
-@media (min-width: 1152px){
+@media (min-width: 1152px ) {
     
-    font-size: 50px;
-    margin-left: 18rem;
+    font-size: 40px;
+    margin-left: 19rem;
+   
+}
+
+@media (min-width: 1200px){
+    
+    margin-left: 22rem;
+   
+}
+
+@media (min-width: 1440px){
+    
+    margin-left: 27rem;
+   
 }
 `
 export const Station = styled.img`
@@ -45,12 +63,11 @@ margin-left: auto;
 margin-right: auto;
 
 @media (min-width: 1152px){
-    
     margin-left: 1rem;
-   
-    width: 350px;
-    height: 51px;
+    width: 185px;
+    height: 34px;
     padding-top: 4.5rem;
+    
 }
 `
 
