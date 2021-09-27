@@ -51,7 +51,7 @@ color: #FFFFFF;
 
 @media (min-width: 1440px){
     
-    margin-left: 27rem;
+    margin-left: 25rem;
    
 }
 `
