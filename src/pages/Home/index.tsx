@@ -3,18 +3,20 @@ import Nav from '../../components/Nav';
 import HomeCard from '../../components/HomeCard'
 import { images } from '../../images'
 import { HeroText, Section, Station,
-     HeroP, CardImage, CardText} from './style'
+     HeroP, CardImage, CardText, Welcome, Card} from './style'
 
 const Home: React.FC = () => {
     return (
         <div>
             <Nav />
             <Section>   
+                <Welcome>
                 <HeroText>Welcome to</HeroText>
                 <Station src={images.station} alt='station' />
+                </Welcome>
 
                 <HeroP>Select a service to get started </HeroP>
-                <div>
+                <Card>
                     <HomeCard>
                         <CardImage src={images.router_icon} alt='icon' />
                         <CardText>Smart Order Router</CardText>
@@ -27,7 +29,7 @@ const Home: React.FC = () => {
                         <CardImage src={images.bar_icon} alt='icon' />
                         <CardText>Subgraph</CardText>
                     </HomeCard>
-                </div>
+                </Card>
             </Section>
         </div>
     )
