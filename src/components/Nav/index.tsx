@@ -1,14 +1,18 @@
 import React from 'react';
-import { images } from '../../images'
+import { images } from '../../images';
+import {NavStyle, Menu, Logo } from './style'
 
 const  Nav: React.FC = () => {
     return (
-        <div>
-            <div>
+        <NavStyle>
+            <Logo>
                 <img src={images.logo} alt='station finanace logo' />
-            </div>
+            </Logo>
+            <Menu>
+                <img src={images.menu} alt="menu icon" />
+            </Menu>
             
-        </div>
+        </NavStyle>
     )
 }
 
