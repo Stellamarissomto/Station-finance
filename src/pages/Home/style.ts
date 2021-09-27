@@ -13,6 +13,7 @@ margin-bottom: 3rem;
 
 @media (min-width: 1152px){
     height: 400px;
+    margin-top: 4rem;
 }
 
 @media (min-width: 1440px){
@@ -52,6 +53,12 @@ color: #FFFFFF;
 @media (min-width: 1320px){
     
     margin-left: 25rem;
+   
+}
+
+@media (min-width: 1400px){
+    
+    margin-left: 26rem;
    
 }
 
