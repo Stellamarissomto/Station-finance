@@ -8,6 +8,7 @@ display: flex;
 export const Menu = styled.div`
 flex:15%;
 margin-top: 2rem;
+cursor: pointer;
 
 @media (min-width: 1152px){
     flex:8%;
@@ -34,6 +35,7 @@ img {
 export const ConnectBtn = styled.div`
 display: none;
 
+
 @media (min-width: 1152px){
     display: flex;
     flex:10%;
@@ -54,6 +56,7 @@ display: none;
         height: 56px;
         margin-top: 1rem;
         margin-right: 4rem;
+        cursor: pointer;
     }
     
   }

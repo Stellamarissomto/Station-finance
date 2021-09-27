@@ -10,7 +10,11 @@ width: 75%;
 height: 180px;
 margin: 0 auto;
 margin-bottom: 3.2rem;
+cursor: pointer;
 
+@media (min-width: 1152px){
+    width: 28%;
+}
 
 
 `
