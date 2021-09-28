@@ -13,7 +13,9 @@ margin-bottom: 3.2rem;
 cursor: pointer;
 
 @media (min-width: 1152px){
-    width: 28%;
+    margin: 0;
+    width: 25%;
+    height: 140px;
 }
 
 @media (min-width: 1440px){

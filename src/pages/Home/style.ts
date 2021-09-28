@@ -12,13 +12,13 @@ padding-bottom: 3rem;
 margin-bottom: 3rem;
 
 @media (min-width: 1152px){
-    height: 400px;
-    margin-top: 4rem;
+    width: 85%;
+    height: 370px;
+    margin-top: 5rem;
 }
 
 @media (min-width: 1440px){
    width: 85%;
-   margin-top: 7rem;
 }
 
 `
@@ -63,7 +63,8 @@ color: #FFFFFF;
 }
 
 @media (min-width: 1440px){
-    
+
+    padding-top: 0.5rem;
     margin-left: 25rem;
    
 }
@@ -81,6 +82,12 @@ margin-right: auto;
     height: 34px;
     padding-top: 3.5rem;
     
+}
+
+@media (min-width: 1440px){
+
+    padding-top: 3rem;
+   
 }
 `
 
@@ -106,18 +113,24 @@ color: #FFFFFF;
 `
 
 export const CardImage = styled.img`
-width: 60px;
-height: 60px;
+width: 40px;
+height: 40px;
 margin-left: auto;
 margin-right: auto;
 margin-top: 2.5rem;
+
+@media (min-width: 1152px){
+    
+    margin-top: 2rem;
+   
+}
 
 `
 export const CardText = styled.p`
 font-family: Open Sans;
 font-style: normal;
 font-weight: bold;
-font-size: 20px;
+font-size: 17px;
 line-height: 27px;
 text-align: center;
 letter-spacing: 0.045em;
@@ -135,5 +148,8 @@ export const Card = styled.div`
 @media (min-width: 1152px){
     display: flex;
    flex-direction: row;
+   gap: 2rem;
+   margin-left: 10rem;
+ 
 }
 `

@@ -28,7 +28,7 @@ img {
 
 @media (min-width: 1152px){
     flex: 82%;
-    margin-left: 1.2rem;
+    margin-left: 1.5rem;
 }
 
 `
