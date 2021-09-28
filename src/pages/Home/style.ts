@@ -1,127 +1,108 @@
 import styled from "styled-components";
+import px2vw from "../../theme/px2vw";
 
 
 export const Section = styled.div`
 background: #1F2436;
-border-radius: 10px;
+border-radius: ${px2vw(10,414)};
 width: 90%;
-height: 900px;
+height: ${px2vw(900,414)};
 margin: 0 auto;
-margin-top: 5rem;
-padding-bottom: 3rem;
-margin-bottom: 3rem;
+margin-top: ${px2vw(80,414)};
+padding-bottom: ${px2vw(48,414)};
+margin-bottom:  ${px2vw(48,414)};
 
-@media (min-width: 1152px){
+@media (min-width: 1024px){
+    border-radius: ${px2vw(10,1440)};
     width: 85%;
-    height: 370px;
-    margin-top: 5rem;
+    height:${px2vw(410,1440)};
+    margin-top: ${px2vw(80,1440)};
+    padding-bottom: ${px2vw(48,1440)};
+    margin-bottom:  ${px2vw(50,1440)};
 }
 
-@media (min-width: 1440px){
-   width: 85%;
-}
 
 `
 
 
-export const HeroText = styled.h3`
+export const HeroText = styled.h2`
 
 font-family: Open Sans;
 font-style: normal;
 font-weight: 300;
-font-size: 28px;
-line-height: 38px;
+font-size: padding-bottom: ${px2vw(48,414)};
+margin-bottom:${px2vw(28,414)};
+line-height: ${px2vw(38,414)};
 letter-spacing: 0.045em;
 text-align: center;
-padding-top: 2rem;
+padding-top: ${px2vw(32,414)};
 
 color: #FFFFFF;
 
-@media (min-width: 1152px ) {
-    padding-top: 1rem;
-    font-size: 40px;
-    margin-left: 19rem;
-   
-}
-
-@media (min-width: 1200px){
+@media (min-width: 1024px ) {
+    padding-top: ${px2vw(16,1400)};
+    font-size: ${px2vw(50,1440)};
+    margin-left:${px2vw(260,1440)};
+    margin-bottom:${px2vw(28,1440)};
+    line-height: ${px2vw(38,1440)};
     
-    margin-left: 22rem;
    
 }
 
-@media (min-width: 1320px){
-    
-    margin-left: 25rem;
-   
-}
 
-@media (min-width: 1400px){
-    
-    margin-left: 26rem;
-   
-}
-
-@media (min-width: 1440px){
-
-    padding-top: 0.5rem;
-    margin-left: 25rem;
-   
-}
 `
 export const Station = styled.img`
-width: 187px;
-height: 31px;
+width: ${px2vw(187,414)};
+height:${px2vw(31,414)};
 display: block;
 margin-left: auto;
 margin-right: auto;
 
-@media (min-width: 1152px){
-    margin-left: 1rem;
-    width: 185px;
-    height: 34px;
-    padding-top: 3.5rem;
+@media (min-width: 1024px){
+    margin-left: ${px2vw(16,1440)};
+    width: ${px2vw(380,1440)};
+    height: ${px2vw(50,1440)};
+    padding-top:${px2vw(52,1440)};
     
 }
 
-@media (min-width: 1440px){
-
-    padding-top: 3rem;
-   
-}
 `
 
 export const HeroP = styled.p`
 font-family: Open Sans;
 font-style: normal;
 font-weight: 300;
-font-size: 17px;
-line-height: 27px;
+font-size: ${px2vw(17,414)};
+line-height: ${px2vw(27,414)};
 letter-spacing: 0.045em;
 text-align: center;
-margin-top: 3rem;
-margin-bottom: 3rem;
+margin-top: ${px2vw(48,414)};
+margin-bottom: ${px2vw(48,414)};
 
 color: #FFFFFF;
 
-@media (min-width: 1152px){
+@media (min-width: 1024px){
     
-    font-size: 24px;
-    margin-top: 0.5rem;
+    font-size: ${px2vw(24,1440)};
+    margin-top: ${px2vw(8,1440)};
+    margin-bottom: ${px2vw(48,1440)};
+    line-height: ${px2vw(27,1440)};
    
 }
 `
 
 export const CardImage = styled.img`
-width: 40px;
-height: 40px;
+width: ${px2vw(50,414)};
+height: ${px2vw(50,414)};
 margin-left: auto;
 margin-right: auto;
-margin-top: 2.5rem;
+margin-top: ${px2vw(40,414)};
 
-@media (min-width: 1152px){
+@media (min-width: 1024px){
     
-    margin-top: 2rem;
+    margin-top: ${px2vw(32,1440)};
+    width: ${px2vw(50,1440)};
+    height: ${px2vw(50,1440)};
    
 }
 
@@ -130,26 +111,31 @@ export const CardText = styled.p`
 font-family: Open Sans;
 font-style: normal;
 font-weight: bold;
-font-size: 17px;
-line-height: 27px;
+font-size:  ${px2vw(17,414)};
+line-height:${px2vw(27,414)};
 text-align: center;
 letter-spacing: 0.045em;
 text-align: center;
 color: #000000;
+
+@media (min-width: 1024px){
+    font-size:  ${px2vw(17,1440)};
+    line-height:${px2vw(27,1440)};
+}
 `
 
 export const Welcome = styled.div`
-@media (min-width: 1152px){
+@media (min-width: 1024px){
     display: flex;
 }
 `
 
 export const Card = styled.div`
-@media (min-width: 1152px){
+@media (min-width: 1024px){
     display: flex;
    flex-direction: row;
-   gap: 2rem;
-   margin-left: 10rem;
+   gap:  ${px2vw(32,1440)};
+   margin-left:  ${px2vw(160,1440)};
  
 }
 `
