@@ -20,7 +20,7 @@ cursor: pointer;
 
 @media (min-width: 1440px){
     width: 25%;
-    height: 170px;
+    height: 150px;
 }
 
 
